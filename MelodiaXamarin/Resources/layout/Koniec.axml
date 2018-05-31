@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/komunikatRelativeLayout"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/koniec">
+    <TextView
+        android:id="@+id/koniecText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="32sp"
+        android:text="" />
+    <TextView
+        android:id="@+id/wynikKoniecText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/koniecText"
+        android:text="WYNIK: " />
+    <TextView
+        android:id="@+id/wynikKoniecWartoscText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/koniecText"
+        android:layout_toRightOf="@id/wynikKoniecText"
+        android:text="   " />
+    <TextView
+        android:id="@+id/wynikKoniecMaxText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/koniecText"
+        android:layout_toRightOf="@id/wynikKoniecText"
+        android:text="   / 10" />
+    <TextView
+        android:id="@+id/koniecPozostalyCzasText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/wynikKoniecText"
+        android:text="" />
+    <Button
+        android:id="@+id/koniecButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/koniecPozostalyCzasText"
+        android:text="MENU GŁÓWNE" />
+</RelativeLayout>

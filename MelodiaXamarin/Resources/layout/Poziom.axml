@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/poziom">
+  <TextView
+    android:id="@+id/poziomText"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Poziom trudności"/>
+  <Button
+    android:id="@+id/latwyButton"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Łatwy (25 sek)"/>
+  <Button
+    android:id="@+id/sredniButton"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Średni (20 sek)"/>
+  <Button
+    android:id="@+id/trudnyButton"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Trudny (15 sek)"/>
+  <Button
+    android:id="@+id/doMenuButton"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="MENU"/>
+</LinearLayout>
